@@ -10,40 +10,11 @@
   "background_color": "#ffffff",
   "icons": [
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23000' width='192' height='192'/><text x='50%' y='50%' font-size='100' font-weight='bold' fill='%23fff' text-anchor='middle' dominant-baseline='central'>₹</text></svg>",
-      "sizes": "192x192",
-      "type": "image/svg+xml",
-      "purpose": "any"
-    },
-    {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%23000' width='512' height='512'/><text x='50%' y='50%' font-size='280' font-weight='bold' fill='%23fff' text-anchor='middle' dominant-baseline='central'>₹</text></svg>",
-      "sizes": "512x512",
+      "src": "/icon.svg",
+      "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
     }
   ],
-  "screenshots": [
-    {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23f5f5f5' width='540' height='720'/><text x='50%' y='50%' font-size='120' font-weight='bold' fill='%23000' text-anchor='middle' dominant-baseline='central'>ExpenseTracker</text></svg>",
-      "sizes": "540x720",
-      "type": "image/svg+xml",
-      "form_factor": "narrow"
-    }
-  ],
-  "categories": ["finance"],
-  "shortcuts": [
-    {
-      "name": "Add Expense",
-      "short_name": "Add",
-      "description": "Quickly add a new expense",
-      "url": "/?tab=add",
-      "icons": [
-        {
-          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23000' width='192' height='192' rx='45'/><path d='M96 60v72M60 96h72' stroke='%23fff' stroke-width='12' stroke-linecap='round'/></svg>",
-          "sizes": "192x192",
-          "type": "image/svg+xml"
-        }
-      ]
-    }
-  ]
+  "categories": ["finance"]
 }
